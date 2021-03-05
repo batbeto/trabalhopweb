@@ -1,10 +1,14 @@
+import Link from 'next/link'
+
 export default function Principal(){
 
   return (
 
-     <div>
-       <link href="/maria"></link>
-     </div>
+    <div>
+    <Link href="/maria">
+      <a>Maria</a>
+    </Link>
+  </div>
 
   )
 
